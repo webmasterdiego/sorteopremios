@@ -1,0 +1,92 @@
+body {
+    background-image: linear-gradient(to bottom, #3F3F3F, #3F3F3F, #3F3F3F, #3F3F3F, #3F3F3F); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*background-image: url(./media/LANDINGPAGE_PARTE\ 2.jpg);*/
+     
+}
+
+h1 {
+    padding-top: 1rem;
+    color: #e2e5e8;
+}
+
+.form-tickets {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.form-control {
+    text-align: center;
+    
+}
+
+h3{
+    color: aliceblue;
+}
+.subTextarea {
+    padding-bottom: 1rem;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #e6e3e5;
+}
+
+.btnEjecutar {
+    padding-top: 1rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    text-align: center;
+    width: 50px;
+}
+
+p{
+    color: #e4e7eb;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+.boton{
+    background-color: #232325;
+    color: #232325;
+}
+.logo{
+    width: 200px;
+    box-shadow: 15px 13px 22px -1px rgba(114,109,109,0.75);
+   -webkit-box-shadow: 15px 13px 22px -1px rgba(114,109,109,0.75);
+   -moz-box-shadow: 15px 13px 22px -1px rgba(114,109,109,0.75);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .btnEjecutar {
+        padding-bottom: 1.125rem;
+        
+    }
+}
+
+h2{
+   
+    color: aliceblue;
+}
+.cont{
+    font-size: 100px;
+}
+
+.ganador{
+    font-size: 50px;
+}
