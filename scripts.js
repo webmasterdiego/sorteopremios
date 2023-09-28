@@ -96,13 +96,8 @@ function ejecutarCaptura(event) {
         swal({
             title: 'EL GANADOR ES!'+ destino.value,
             icon: "success",
-
-            backdrop: `
-              rgba(0,0,123,0.4)
-              imageUrl("/media/Kitty-rapper.gif")
-               left top
-              no-repeat
-                     `
+            
+                     
         })
         
     ); }, 2300);
